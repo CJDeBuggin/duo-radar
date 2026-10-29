@@ -1,6 +1,6 @@
 # Watcher backup
 
-Two machines take turns checking Apple's pickup endpoint once a minute (one at second 0, one at second 30) and sync over a public ntfy status topic so they don't send duplicate alerts. On Windows, `run_loop.pyw` relaunches `watcher.py` if it exits and logs to `watcher.log`.
+Two machines take turns checking Apple's pickup endpoint once a minute (one at second 0, one at second 30) and sync over a public ntfy status topic so they don't send duplicate alerts. Urgent alerts are for the 256GB Star White (MK1E4LL/A) or Night Sky (MK1F4LL/A) at Apple Saint Louis Galleria and Apple West County. The checker pauses from 10 PM to 5 AM. On Windows, `run_loop.pyw` relaunches `watcher.py` if it exits and logs to `watcher.log`.
 
 Next to the script, create:
 
